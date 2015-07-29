@@ -10,6 +10,11 @@ import UIKit
 
 class EasingViewController: UIViewController {
 
+    @IBOutlet weak var blueSquare: UIView!
+    @IBOutlet weak var redSquare: UIView!
+    @IBOutlet weak var greenSquare: UIView!
+    @IBOutlet weak var yellowSquare: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,6 +26,24 @@ class EasingViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+            UIView.animateWithDuration(1, animations: {
+                self.blueSquare.center.x = self.view.bounds.width - self.blueSquare.center.x
+        })// Linear Animation
+        
+            UIView.animateWithDuration(1, delay: 0, options: .CurveEaseIn, animations: {
+                self.redSquare.center.x = self.view.bounds.width - self.redSquare.center.x
+            }, completion: nil)// EaseIn Animation
+        
+            UIView.animateWithDuration(1, delay: 0, options: .CurveEaseOut, animations: {
+            self.greenSquare.center.x = self.view.bounds.width - self.greenSquare.center.x
+            }, completion: nil)// EaseOut Animation
+        
+            UIView.animateWithDuration(1, delay: 0, options: .CurveEaseInOut, animations: {
+            self.yellowSquare.center.x = self.view.bounds.width - self.yellowSquare.center.x
+            }, completion: nil)// EaseIn and EaseOut Animation
+    }
 
     /*
     // MARK: - Navigation

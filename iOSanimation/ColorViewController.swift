@@ -6,8 +6,30 @@
 //  Copyright (c) 2015年 imduran. All rights reserved.
 //
 
-import Cocoa
+import UIKit
 
 class ColorViewController: UIViewController {
+    
+    @IBOutlet weak var GreenSquare: UIView!
+    
+    @IBOutlet weak var name: UILabel!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        UIView.animateWithDuration(1, animations: {
+            self.GreenSquare.backgroundColor = UIColor.redColor()
+            self.name.textColor = UIColor.whiteColor()
+        })
+    }
+    
 
 }

@@ -13,6 +13,15 @@
 		C76D89EE1B5D18F600D8CAE3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C76D89ED1B5D18F600D8CAE3 /* Images.xcassets */; };
 		C76D89F11B5D18F600D8CAE3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C76D89EF1B5D18F600D8CAE3 /* LaunchScreen.xib */; };
 		C76D89FD1B5D18F600D8CAE3 /* iOSanimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76D89FC1B5D18F600D8CAE3 /* iOSanimationTests.swift */; };
+		C76D8A071B5D1D0F00D8CAE3 /* PositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76D8A061B5D1D0F00D8CAE3 /* PositionViewController.swift */; };
+		C76D8A091B5D2AD700D8CAE3 /* OpacityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76D8A081B5D2AD700D8CAE3 /* OpacityViewController.swift */; };
+		C76D8A0B1B5D2D9500D8CAE3 /* ScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76D8A0A1B5D2D9500D8CAE3 /* ScaleViewController.swift */; };
+		C76D8A0D1B5D2F9D00D8CAE3 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76D8A0C1B5D2F9D00D8CAE3 /* ColorViewController.swift */; };
+		C76D8A0F1B5D31A800D8CAE3 /* RotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76D8A0E1B5D31A800D8CAE3 /* RotationViewController.swift */; };
+		C76D8A111B5D329600D8CAE3 /* ladder.png in Resources */ = {isa = PBXBuildFile; fileRef = C76D8A101B5D329600D8CAE3 /* ladder.png */; };
+		C7ED7C451B68AD8F004CAF1A /* RepeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ED7C441B68AD8F004CAF1A /* RepeatViewController.swift */; };
+		C7ED7C471B68B9AA004CAF1A /* EasingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ED7C461B68B9AA004CAF1A /* EasingViewController.swift */; };
+		C7ED7C491B68BE15004CAF1A /* SpringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ED7C481B68BE15004CAF1A /* SpringViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,15 @@
 		C76D89F61B5D18F600D8CAE3 /* iOSanimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSanimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C76D89FB1B5D18F600D8CAE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C76D89FC1B5D18F600D8CAE3 /* iOSanimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSanimationTests.swift; sourceTree = "<group>"; };
+		C76D8A061B5D1D0F00D8CAE3 /* PositionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionViewController.swift; sourceTree = "<group>"; };
+		C76D8A081B5D2AD700D8CAE3 /* OpacityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpacityViewController.swift; sourceTree = "<group>"; };
+		C76D8A0A1B5D2D9500D8CAE3 /* ScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleViewController.swift; sourceTree = "<group>"; };
+		C76D8A0C1B5D2F9D00D8CAE3 /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		C76D8A0E1B5D31A800D8CAE3 /* RotationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationViewController.swift; sourceTree = "<group>"; };
+		C76D8A101B5D329600D8CAE3 /* ladder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ladder.png; sourceTree = "<group>"; };
+		C7ED7C441B68AD8F004CAF1A /* RepeatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepeatViewController.swift; sourceTree = "<group>"; };
+		C7ED7C461B68B9AA004CAF1A /* EasingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasingViewController.swift; sourceTree = "<group>"; };
+		C7ED7C481B68BE15004CAF1A /* SpringViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +97,19 @@
 			children = (
 				C76D89E61B5D18F600D8CAE3 /* AppDelegate.swift */,
 				C76D89E81B5D18F600D8CAE3 /* ViewController.swift */,
+				C76D8A061B5D1D0F00D8CAE3 /* PositionViewController.swift */,
+				C76D8A081B5D2AD700D8CAE3 /* OpacityViewController.swift */,
+				C76D8A0A1B5D2D9500D8CAE3 /* ScaleViewController.swift */,
+				C76D8A0C1B5D2F9D00D8CAE3 /* ColorViewController.swift */,
+				C76D8A0E1B5D31A800D8CAE3 /* RotationViewController.swift */,
+				C7ED7C441B68AD8F004CAF1A /* RepeatViewController.swift */,
+				C7ED7C461B68B9AA004CAF1A /* EasingViewController.swift */,
 				C76D89EA1B5D18F600D8CAE3 /* Main.storyboard */,
 				C76D89ED1B5D18F600D8CAE3 /* Images.xcassets */,
+				C76D8A101B5D329600D8CAE3 /* ladder.png */,
 				C76D89EF1B5D18F600D8CAE3 /* LaunchScreen.xib */,
 				C76D89E41B5D18F600D8CAE3 /* Supporting Files */,
+				C7ED7C481B68BE15004CAF1A /* SpringViewController.swift */,
 			);
 			path = iOSanimation;
 			sourceTree = "<group>";
@@ -193,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C76D89EC1B5D18F600D8CAE3 /* Main.storyboard in Resources */,
+				C76D8A111B5D329600D8CAE3 /* ladder.png in Resources */,
 				C76D89F11B5D18F600D8CAE3 /* LaunchScreen.xib in Resources */,
 				C76D89EE1B5D18F600D8CAE3 /* Images.xcassets in Resources */,
 			);
@@ -212,7 +240,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C76D8A071B5D1D0F00D8CAE3 /* PositionViewController.swift in Sources */,
+				C76D8A0B1B5D2D9500D8CAE3 /* ScaleViewController.swift in Sources */,
+				C7ED7C471B68B9AA004CAF1A /* EasingViewController.swift in Sources */,
+				C7ED7C491B68BE15004CAF1A /* SpringViewController.swift in Sources */,
 				C76D89E91B5D18F600D8CAE3 /* ViewController.swift in Sources */,
+				C76D8A091B5D2AD700D8CAE3 /* OpacityViewController.swift in Sources */,
+				C76D8A0F1B5D31A800D8CAE3 /* RotationViewController.swift in Sources */,
+				C7ED7C451B68AD8F004CAF1A /* RepeatViewController.swift in Sources */,
+				C76D8A0D1B5D2F9D00D8CAE3 /* ColorViewController.swift in Sources */,
 				C76D89E71B5D18F600D8CAE3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +445,7 @@
 				C76D8A021B5D18F600D8CAE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C76D8A031B5D18F600D8CAE3 /* Build configuration list for PBXNativeTarget "iOSanimationTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +454,7 @@
 				C76D8A051B5D18F600D8CAE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

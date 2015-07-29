@@ -6,8 +6,27 @@
 //  Copyright (c) 2015年 imduran. All rights reserved.
 //
 
-import Cocoa
+import UIKit
 
 class OpacityViewController: UIViewController {
 
-}
+    @IBOutlet weak var GreenSquare: UIView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        UIView.animateWithDuration(1, animations: {
+            self.GreenSquare.alpha = 0.1
+        })
+    }
+    
+    }
+
